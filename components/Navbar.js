@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 const Navbar = () => {
     return (
@@ -6,9 +6,15 @@ const Navbar = () => {
             <div className="logo">
                 <h1>K8S Blog</h1>
             </div>
-            <a>Home</a>
-            <a>About</a>
-            <a>Blog</a>
+            <Link href="/">
+                <a>Home</a>
+            </Link>
+            <Link href="/about">
+                <a>About</a>
+            </Link>
+            <Link href="/blog">
+                <a>Blog</a>
+            </Link>
         </nav>
     )
 }
