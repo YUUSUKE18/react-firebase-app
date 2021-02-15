@@ -5,11 +5,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <div className={styles.title}>
       <h1>Hello Next Blog</h1>
-      <p>Hello World</p>
-      <Footer />
+      <p className={styles.text}>Hello World</p>
     </div>
   )
 }
