@@ -36,3 +36,12 @@ footer {
   margin-top: 60px;
   color: rgb(110, 108, 108);
 }
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: white;
+  text-decoration: underline;
+}
